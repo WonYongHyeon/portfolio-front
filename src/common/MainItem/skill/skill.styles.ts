@@ -1,13 +1,6 @@
 import { keyframes } from "@emotion/react";
 import styled from "@emotion/styled";
 
-export const Wrapper = styled.div`
-  width: 100%;
-  height: 100vh;
-  overflow: auto;
-  scroll-snap-type: y mandatory;
-`;
-
 export const FullPageWrapper = styled.div`
   display: flex;
   flex-direction: column;
@@ -17,48 +10,6 @@ export const FullPageWrapper = styled.div`
   border-radius: 30px;
   margin: auto;
   scroll-snap-align: center;
-`;
-
-export const IntroduceWrapper = styled.div`
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: white;
-  width: 80vw;
-  padding: 100px;
-  margin: auto;
-  border-radius: 50px;
-`;
-
-export const IntroduceTitle = styled.h1`
-  padding: 30px;
-  font-size: 40px;
-  font-weight: bold;
-  margin: auto;
-`;
-
-export const IntroduceSubject = styled.p`
-  padding: 30px;
-  font-size: 25px;
-  line-height: 50px;
-  vertical-align: middle;
-  white-space: pre-wrap;
-  overflow: hidden;
-  word-break: break-all;
-`;
-
-export const MoreIntroduceButton = styled.div`
-  position: absolute;
-  right: 20px;
-  bottom: 20px;
-  font-size: 20px;
-  border-radius: 30px;
-  border: 1px solid #ccc;
-  padding: 20px;
-  cursor: pointer;
-  display: flex;
-  flex-direction: row;
 `;
 
 export const SkillWrapper = styled.div`
@@ -86,7 +37,7 @@ export const SkillTitle = styled.h1`
   font-weight: bold;
 `;
 
-export const MoreTitleButton = styled.div`
+export const MoreSkillButton = styled.div`
   font-size: 20px;
   border-radius: 30px;
   border: 1px solid #ccc;
@@ -162,10 +113,7 @@ export const MoreButtonArrow = styled.img`
   height: 20px;
   padding-left: 10px;
 
-  ${MoreTitleButton}:hover & {
-    animation: ${Arrow} 1s infinite;
-  }
-  ${MoreIntroduceButton}:hover & {
+  ${MoreSkillButton}:hover & {
     animation: ${Arrow} 1s infinite;
   }
 `;

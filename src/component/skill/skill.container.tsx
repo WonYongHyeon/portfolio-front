@@ -13,18 +13,6 @@ import {
   Runner,
 } from "matter-js";
 
-import IconJS from "../../assets/icon_JS.png";
-import IconCSS from "../../assets/icon_CSS.png";
-import IconHTML from "../../assets/icon_HTML.png";
-import IconREACT from "../../assets/icon_REACT.png";
-import IconAWS from "../../assets/iconAWS.svg";
-import IconDocker from "../../assets/iconDocker.svg";
-import IconGithub from "../../assets/iconGithub.svg";
-import IconGraphQL from "../../assets/iconGraphQL.svg";
-import IconNextjs from "../../assets/iconNextjs.svg";
-import IconTS from "../../assets/iconTS.svg";
-import IconEmotion from "../../assets/iconEmotion.svg";
-
 interface DataType {
   [label: string]: {
     title: string;
@@ -243,7 +231,11 @@ function initImageBox(cw: number, ch: number, engine: any) {
       label: "1",
       chamfer: { radius: 20 },
       render: {
-        sprite: { texture: IconJS, xScale: scale, yScale: scale },
+        sprite: {
+          texture: "../../assets/icon_JS.png",
+          xScale: scale,
+          yScale: scale,
+        },
       },
     },
     engine
@@ -257,7 +249,11 @@ function initImageBox(cw: number, ch: number, engine: any) {
       label: "2",
       chamfer: { radius: 20 },
       render: {
-        sprite: { texture: IconHTML, xScale: scale, yScale: scale },
+        sprite: {
+          texture: "../../assets/icon_HTML.png",
+          xScale: scale,
+          yScale: scale,
+        },
       },
     },
     engine
@@ -271,12 +267,15 @@ function initImageBox(cw: number, ch: number, engine: any) {
       label: "3",
       chamfer: { radius: 20 },
       render: {
-        sprite: { texture: IconCSS, xScale: scale, yScale: scale },
+        sprite: {
+          texture: "../../assets/icon_CSS.png",
+          xScale: scale,
+          yScale: scale,
+        },
       },
     },
     engine
   );
-
   addRect(
     cw / 2,
     ch / 2 - 250 * scale,
@@ -286,7 +285,11 @@ function initImageBox(cw: number, ch: number, engine: any) {
       label: "4",
       chamfer: { radius: 75 },
       render: {
-        sprite: { texture: IconREACT, xScale: scale, yScale: scale },
+        sprite: {
+          texture: "../../assets/icon_REACT.png",
+          xScale: scale,
+          yScale: scale,
+        },
       },
     },
     engine
@@ -301,7 +304,7 @@ function initImageBox(cw: number, ch: number, engine: any) {
       chamfer: { radius: 75 },
       render: {
         sprite: {
-          texture: IconEmotion,
+          texture: "../../assets/iconEmotion.svg",
           xScale: scale,
           yScale: scale,
         },
@@ -318,7 +321,11 @@ function initImageBox(cw: number, ch: number, engine: any) {
       label: "6",
       chamfer: { radius: 20 },
       render: {
-        sprite: { texture: IconAWS, xScale: scale, yScale: scale },
+        sprite: {
+          texture: "../../assets/iconAWS.svg",
+          xScale: scale,
+          yScale: scale,
+        },
       },
     },
     engine
@@ -332,7 +339,11 @@ function initImageBox(cw: number, ch: number, engine: any) {
       label: "7",
       chamfer: { radius: 20 },
       render: {
-        sprite: { texture: IconTS, xScale: scale, yScale: scale },
+        sprite: {
+          texture: "../../assets/iconTS.svg",
+          xScale: scale,
+          yScale: scale,
+        },
       },
     },
     engine
@@ -346,7 +357,11 @@ function initImageBox(cw: number, ch: number, engine: any) {
       label: "8",
       chamfer: { radius: 20 },
       render: {
-        sprite: { texture: IconDocker, xScale: scale, yScale: scale },
+        sprite: {
+          texture: "../../assets/iconDocker.svg",
+          xScale: scale,
+          yScale: scale,
+        },
       },
     },
     engine
@@ -360,7 +375,11 @@ function initImageBox(cw: number, ch: number, engine: any) {
       label: "9",
       chamfer: { radius: 20 },
       render: {
-        sprite: { texture: IconGithub, xScale: scale, yScale: scale },
+        sprite: {
+          texture: "../../assets/iconGithub.svg",
+          xScale: scale,
+          yScale: scale,
+        },
       },
     },
     engine
@@ -374,7 +393,11 @@ function initImageBox(cw: number, ch: number, engine: any) {
       label: "10",
       chamfer: { radius: 20 },
       render: {
-        sprite: { texture: IconGraphQL, xScale: scale, yScale: scale },
+        sprite: {
+          texture: "../../assets/iconGraphQL.svg",
+          xScale: scale,
+          yScale: scale,
+        },
       },
     },
     engine
@@ -388,7 +411,11 @@ function initImageBox(cw: number, ch: number, engine: any) {
       label: "11",
       chamfer: { radius: 75 },
       render: {
-        sprite: { texture: IconNextjs, xScale: 0.9, yScale: 0.9 },
+        sprite: {
+          texture: "../../assets/iconNextjs.svg",
+          xScale: 0.9,
+          yScale: 0.9,
+        },
       },
     },
     engine
