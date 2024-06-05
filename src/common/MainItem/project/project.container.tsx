@@ -1,11 +1,12 @@
 import { useRouter } from "next/navigation";
+import MainProjectUI from "./project.presenter";
 
 export default function MainProject() {
   const router = useRouter();
 
   const onClickRoute = () => {
-    router.push("/skill");
+    router.push("/project");
   };
 
-  return;
+  return <MainProjectUI onClickRoute={onClickRoute}></MainProjectUI>;
 }
