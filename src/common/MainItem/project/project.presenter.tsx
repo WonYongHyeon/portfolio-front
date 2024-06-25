@@ -26,7 +26,8 @@ export default function MainProjectUI(props: Props) {
           </S.ProjectItemBox>
           <S.ProjectItemBox>
             <S.ProjectItemTitle>
-              <p>Team Project</p> <p>- Farm You</p>
+              <p>Team Project</p>
+              <p>- Farm You</p>
             </S.ProjectItemTitle>
             <S.ProjectItemSubtitle>
               로컬 푸드 및 못난이 농산물 온라인 마켓 서비스
@@ -38,7 +39,8 @@ export default function MainProjectUI(props: Props) {
           </S.ProjectItemBox>
           <S.ProjectItemBox>
             <S.ProjectItemTitle>
-              <p>Personal Project</p> <p>- 기프티마켓</p>
+              <p>Personal Project</p>
+              <p>- 기프티마켓</p>
             </S.ProjectItemTitle>
             <S.ProjectItemSubtitle>
               기프티콘 거래 마켓 서비스
@@ -48,7 +50,6 @@ export default function MainProjectUI(props: Props) {
               <p>Typescript, React, Next.js, GraphQL, Emotion</p>
             </S.ProjectItemSkill>
           </S.ProjectItemBox>
-
           <S.ProjectItemBox>
             <S.ProjectItemTitle>Scoreboard</S.ProjectItemTitle>
             <S.ProjectItemSubtitle>PL 스코어보드</S.ProjectItemSubtitle>

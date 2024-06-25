@@ -5,6 +5,7 @@ import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import MainSkill from "@/common/MainItem/skill/skill.container";
 import MainProject from "@/common/MainItem/project/project.container";
+import MainTil from "@/common/MainItem/TIL/til.container";
 
 interface Props {
   skill: SkillDataType;
@@ -19,6 +20,7 @@ export default function MainUI(props: Props) {
       <MainIntroduce></MainIntroduce>
       <MainSkill></MainSkill>
       <MainProject></MainProject>
+      <MainTil></MainTil>
 
       <S.FullPageWrapper>
         <S.SkillWrapper>

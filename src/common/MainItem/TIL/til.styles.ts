@@ -12,7 +12,7 @@ export const FullPageWrapper = styled.div`
   scroll-snap-align: center;
 `;
 
-export const ProjectWrapper = styled.div`
+export const TilWrapper = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
@@ -26,19 +26,19 @@ export const ProjectWrapper = styled.div`
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 `;
 
-export const ProjectTitleWrapper = styled.div`
+export const TilTitleWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
 `;
 
-export const ProjectTitle = styled.h1`
+export const TilTitle = styled.h1`
   padding: 30px;
   font-size: 40px;
   font-weight: bold;
 `;
 
-export const MoreTitleButton = styled.div`
+export const MoreTilButton = styled.div`
   font-size: 20px;
   border-radius: 30px;
   border: 1px solid #ccc;
@@ -66,18 +66,18 @@ export const MoreButtonArrow = styled.img`
   height: 20px;
   padding-left: 10px;
 
-  ${MoreTitleButton}:hover & {
+  ${MoreTilButton}:hover & {
     animation: ${Arrow} 1s infinite;
   }
 `;
 
-export const ProjectItemWrapper = styled.div`
+export const TilItemWrapper = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(350px, auto));
   grid-gap: 40px;
 `;
 
-export const ProjectItemBox = styled.div`
+export const TilItemBox = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -88,6 +88,7 @@ export const ProjectItemBox = styled.div`
   box-shadow: 5px 5px 10px -5px;
   transform: scale(1);
   transition: transform 0.4s ease-in-out;
+  cursor: pointer;
 
   :hover {
     background-color: #333;
@@ -97,23 +98,11 @@ export const ProjectItemBox = styled.div`
   }
 `;
 
-export const ProjectItemTitle = styled.div`
-  font-size: 25px;
+export const TilItemTitle = styled.h2`
+  font-size: 20px;
   font-weight: 700;
-  margin-bottom: 10px;
 `;
 
-export const ProjectItemSubtitle = styled.div`
+export const TilItemContent = styled.p`
   font-size: 15px;
-  font-weight: 600;
-  margin-bottom: 10px;
 `;
-
-export const ProjectItemSkill = styled.div`
-  font-size: 15px;
-  display: flex;
-  flex-direction: column;
-  color: #999;
-`;
-
-export const ProjectItemContent = styled.div``;

@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import HeaderUI from "./header.presenter";
 import { throttle } from "lodash";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 export default function Header() {
   const router = useRouter();

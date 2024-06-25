@@ -23,6 +23,7 @@ export const SkillWrapper = styled.div`
   margin: auto;
   border-radius: 50px;
   gap: 50px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 `;
 
 export const SkillTitleWrapper = styled.div`
